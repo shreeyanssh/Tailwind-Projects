@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trendline</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .image-container::-webkit-scrollbar {
+        display: none;
+      }
+      .text::-webkit-scrollbar {
+        background-color: transparent;
+        height: 0.5vw;
+      }
+      .text::-webkit-scrollbar-thumb {
+        background-color: orangered;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body class="w-full h-full">
+    <div class="main m-[2vw] md:m-[1vw] sm:m-[1vw] overflow-hidden">
+      <header>
+        <div class="nav flex justify-between my-[2vw] w-full">
+          <div class="symbol flex">
+            <div class="circle h-[7vw] w-[7vw] md:h-[3vw] md:w-[3vw] sm:h-[3vw] sm:w-[3vw] bg-black rounded-full"></div>
+            <div class="circle h-[7vw] w-[7vw] md:h-[3vw] md:w-[3vw] sm:h-[3vw] sm:w-[3vw] bg-black rounded-full"></div>
+          </div>
+          <div class="nav-part flex gap-5 text-[5vw] md:text-[2vw] sm:text-[2vw] cursor-pointer">
+            <h4>EN &nbsp;<span class="text-slate-400">RU</span></h4>
+            <div class="hidden md:flex sm:flex gap-5 cursor-pointer">
+              <h4>Country : Russia</h4>
+              <h4>Profile</h4>
+              <h4>Wishlist(0)</h4>
+              <h4>Search</h4>
+            </div>
+            <i class="ri-menu-3-line ml-[5vw] md:hidden sm:hidden"></i>
+          </div>
+        </div>
+        <div
+          class="nav-two flex gap-[3vw] mt-[8vw] md:mt-[2vw] sm:mt-[3vw] cursor-pointer text-[3.7vw] md:text-[1.8vw] sm:text-[3vw] text-slate-600"
+        >
+          <h4 class="hover:underline">Sun</h4>
+          <h4 class="hover:underline">Optical</h4>
+          <h4 class="hover:underline">Collections</h4>
+          <h4 class="hover:underline">Studio</h4>
+          <h4 class="hover:underline">About</h4>
+          <h4 class="hover:underline">Shops</h4>
+          <h4 class="hover:underline">Journal</h4>
+        </div>
+      </header>
+
+      <div class="content">
+        <div
+          class="text flex items-center h-[40vh] text-[13vw] md:text-[7vw] sm:text-[10vw] overflow-x-auto overflow-y-hidden"
+        >
+          <div class="elements shrink-0 w-[90vw]">
+            <div class="num text-[10vw] md:text-[5vw] sm:text-[7vw]">
+              <h3>01</h3>
+            </div>
+            <h1>Trendline</h1>
+          </div>
+          <div class="elements shrink-0 w-[90vw] ">
+            <div class="num text-[10vw] md:text-[5vw] sm:text-[7vw]">
+              <h3>02</h3>
+            </div>
+            <h1>Ray-Ban</h1>
+          </div>
+          <div class="elements shrink-0 w-[90vw]">
+            <div class="num text-[10vw]md:text-[5vw] sm:text-[7vw]">
+              <h3>03</h3>
+            </div>
+            <h1>Titan</h1>
+          </div>
+          <div class="elements shrink-0 w-[90vw]">
+            <div class="num text-[10vw] md:text-[5vw] sm:text-[7vw]">
+              <h3>04</h3>
+            </div>
+            <h1>Trendline</h1>
+          </div>
+          <div class="elements shrink-0 w-[90vw]">
+            <div class="num text-[10vw] md:text-[5vw] sm:text-[7vw]">
+              <h3>05</h3>
+            </div>
+            <h1>Ray-Ban</h1>
+          </div>
+          <div class="elements shrink-0 w-[90vw]">
+            <div class="num text-[10vw] md:text-[5vw] sm:text-[7vw]">
+              <h3>06</h3>
+            </div>
+            <h1>Titan</h1>
+          </div>
+        </div>
+
+        <div class="image-container flex h-[50vh] w-[100vw] overflow-auto">
+          <img
+            class="object-cover h-full min-w-[85%] p-[2.5%]"
+            src="https://images.unsplash.com/photo-1617009762269-c062aaf6b3a0?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Model"
+          />
+          <img
+            class="object-cover h-full min-w-[85%] p-[2.5%]"
+            src="https://images.unsplash.com/photo-1551706872-893907c44a3e?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Model"
+          />
+          <img
+            class="object-cover h-full min-w-[85%] p-[2.5%]"
+            src="https://images.unsplash.com/photo-1523903966583-770c0fa104e6?q=80&w=2674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Model"
+          />
+          <img
+            class="object-cover h-full min-w-[85%] p-[2.5%]"
+            src="https://images.unsplash.com/photo-1617009762269-c062aaf6b3a0?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Model"
+          />
+          <img
+            class="object-cover h-full min-w-[85%] p-[2.5%]"
+            src="https://images.unsplash.com/photo-1551706872-893907c44a3e?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Model"
+          />
+          <img
+            class="object-cover h-full min-w-[85%] p-[2.5%]"
+            src="https://images.unsplash.com/photo-1523903966583-770c0fa104e6?q=80&w=2674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Model"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
